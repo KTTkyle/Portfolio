@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #464646;
+}
+header h1 {
+  color: #464646;
+  display: inline;
+  font-size: 60px;
+  margin: 30px;
+  display: inline;
+  background-color: #198d8f;
+}
+header a {
+  color: #198d8f;
+}
+
+header nav {
+  float: right;
+  margin: 25px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 25px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.Container {
+  background-image: url("../My-Portfolio/First-Picture.jpg");
+  height: 5px;
+  width: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer h2 {
+  color: #025a8d;
+  font-size: 50px;
+}
+
+footer nav {
+  float: right;
+}
+
+footer nav ul li a {
+  color: #025a8d;
+  font-size: 20px;
+}
